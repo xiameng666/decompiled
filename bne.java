@@ -1,0 +1,10 @@
+public enum bne {
+    IMAGE_CAPTURE,
+    PREVIEW,
+    IMAGE_ANALYSIS,
+    VIDEO_CAPTURE,
+    STREAM_SHARING,
+    METERING_REPEATING;
+
+}
+

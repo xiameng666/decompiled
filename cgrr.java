@@ -1,0 +1,11 @@
+public final class cgrr implements bboe {
+    @Override  // bboe
+    public final Object a(Object object0) {
+        gkvx gkvx0 = ((gkvw)object0).k;
+        if(gkvx0 == null) {
+            gkvx0 = gkvx.a;
+        }
+        return (long)gkvx0.c;
+    }
+}
+

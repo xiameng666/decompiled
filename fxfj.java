@@ -1,0 +1,4 @@
+interface fxfj {
+    void a();
+}
+

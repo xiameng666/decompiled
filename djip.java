@@ -1,0 +1,4 @@
+interface djip {
+    void a();
+}
+

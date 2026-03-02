@@ -1,0 +1,4 @@
+interface fejc {
+    void a();
+}
+

@@ -1,0 +1,15 @@
+public final class bekb implements ibts {
+    public final ibth a;
+
+    public bekb(ibth ibth0) {
+        this.a = ibth0;
+    }
+
+    @Override  // ibts
+    public final Object a(Object object0) {
+        String s = (String)object0;
+        this.a.a();
+        return ibom.a;
+    }
+}
+

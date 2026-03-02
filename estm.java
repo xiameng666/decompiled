@@ -1,0 +1,10 @@
+public enum estm {
+    B1B8_PERMANENT,
+    B1B6_ACTIVE,
+    B1B5_BLOCKED,
+    B1B4_WALLET_ACTIVE,
+    B1B3_USE_GLOBAL_BALANCE,
+    B2B8_CURRENCY_KM;
+
+}
+

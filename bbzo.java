@@ -1,0 +1,11 @@
+import java.util.Arrays;
+
+public final class bbzo implements ibts {
+    @Override  // ibts
+    public final Object a(Object object0) {
+        Object object1 = String.format("%02X", Arrays.copyOf(new Object[]{((Byte)object0)}, 1));
+        ibuq.e(object1, "format(...)");
+        return object1;
+    }
+}
+

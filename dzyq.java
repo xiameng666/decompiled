@@ -1,0 +1,4 @@
+interface dzyq {
+    boolean a();
+}
+

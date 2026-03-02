@@ -1,0 +1,75 @@
+import java.util.HashMap;
+
+final class estw extends HashMap {
+    public estw() {
+        Byte byte0 = (byte)0;
+        Byte byte1 = (byte)7;
+        idoy idoy0 = new idoy(byte0, byte1);
+        this.put(esti.a, idoy0);
+        Byte byte2 = (byte)6;
+        idoy idoy1 = new idoy(byte0, byte2);
+        this.put(esti.b, idoy1);
+        Byte byte3 = (byte)5;
+        idoy idoy2 = new idoy(byte0, byte3);
+        this.put(esti.c, idoy2);
+        Byte byte4 = (byte)4;
+        idoy idoy3 = new idoy(byte0, byte4);
+        this.put(esti.d, idoy3);
+        idoy idoy4 = new idoy(byte0, byte0);
+        this.put(esti.e, idoy4);
+        Byte byte5 = (byte)2;
+        idoy idoy5 = new idoy(byte5, byte1);
+        this.put(esti.f, idoy5);
+        Byte byte6 = (byte)3;
+        idoy idoy6 = new idoy(byte6, byte1);
+        this.put(esti.g, idoy6);
+        idoy idoy7 = new idoy(byte3, byte1);
+        this.put(esti.h, idoy7);
+        idoy idoy8 = new idoy(byte3, byte2);
+        this.put(esti.i, idoy8);
+        idoy idoy9 = new idoy(byte3, byte3);
+        this.put(esti.j, idoy9);
+        idoy idoy10 = new idoy(byte3, byte4);
+        this.put(esti.k, idoy10);
+        idoy idoy11 = new idoy(byte2, byte1);
+        this.put(esti.l, idoy11);
+        idoy idoy12 = new idoy(byte2, byte2);
+        this.put(esti.m, idoy12);
+        idoy idoy13 = new idoy(byte2, byte3);
+        this.put(esti.n, idoy13);
+        idoy idoy14 = new idoy(byte2, byte4);
+        this.put(esti.o, idoy14);
+        idoy idoy15 = new idoy(byte2, byte6);
+        this.put(esti.p, idoy15);
+        idoy idoy16 = new idoy(byte2, byte5);
+        this.put(esti.q, idoy16);
+        Byte byte7 = (byte)1;
+        idoy idoy17 = new idoy(byte2, byte7);
+        this.put(esti.r, idoy17);
+        idoy idoy18 = new idoy(byte1, byte1);
+        this.put(esti.s, idoy18);
+        idoy idoy19 = new idoy(byte1, byte2);
+        this.put(esti.t, idoy19);
+        idoy idoy20 = new idoy(byte1, byte3);
+        this.put(esti.u, idoy20);
+        idoy idoy21 = new idoy(byte1, byte4);
+        this.put(esti.v, idoy21);
+        Byte byte8 = (byte)8;
+        idoy idoy22 = new idoy(byte8, byte1);
+        this.put(esti.w, idoy22);
+        idoy idoy23 = new idoy(byte8, byte2);
+        this.put(esti.x, idoy23);
+        Byte byte9 = (byte)9;
+        idoy idoy24 = new idoy(byte9, byte3);
+        this.put(esti.y, idoy24);
+        idoy idoy25 = new idoy(byte9, byte4);
+        this.put(esti.z, idoy25);
+        idoy idoy26 = new idoy(byte9, byte6);
+        this.put(esti.A, idoy26);
+        idoy idoy27 = new idoy(byte9, byte7);
+        this.put(esti.B, idoy27);
+        idoy idoy28 = new idoy(byte9, byte0);
+        this.put(esti.C, idoy28);
+    }
+}
+

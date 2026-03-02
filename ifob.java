@@ -1,0 +1,4 @@
+interface ifob {
+    int a();
+}
+

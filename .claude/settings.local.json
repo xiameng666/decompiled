@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__mcpServers-1__context",
+      "mcp__mcpServers-1__query",
+      "mcp__mcpServers-1__cypher",
+      "Bash(grep:*)",
+      "Bash(ls:*)"
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+interface fnhb {
+    void a();
+}
+

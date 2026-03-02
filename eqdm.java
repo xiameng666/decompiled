@@ -1,0 +1,4 @@
+interface eqdm {
+    void a();
+}
+

@@ -1,0 +1,12 @@
+public final class dtzd implements evpo {
+    @Override  // evpo
+    public final Object a(evql evql0) {
+        byte[] arr_b = (byte[])evql0.j();
+        hftc hftc0 = hftc.a();
+        ProtoLiteMessage hftv0 = ProtoLiteMessage.y_parseFrom(((ProtoLiteMessage)ftcg.a), arr_b, 0, arr_b.length, hftc0);
+        ProtoLiteMessage.P_makeImmutable(hftv0);
+        Object object0 = (((ftcg)hftv0).b == 1 ? ((ftdh)((ftcg)hftv0).c) : ftdh.a).c;
+        return object0 == null ? hjzq.a : object0;
+    }
+}
+

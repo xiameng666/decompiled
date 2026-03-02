@@ -1,0 +1,4 @@
+interface fxfo {
+    gxpg a();
+}
+

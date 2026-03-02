@@ -1,0 +1,4 @@
+interface iara {
+    void a();
+}
+

@@ -1,0 +1,4 @@
+interface erto {
+    String a();
+}
+

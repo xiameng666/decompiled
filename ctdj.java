@@ -1,0 +1,19 @@
+public enum ctdj {
+    UNKNOWN_SOURCE,
+    SETTINGS_NAVIGATION,
+    SETTINGS_OPT_IN,
+    OPT_IN_PROMPT,
+    WELCOME_NOTIFICATION,
+    NEW_DEVICE_NOTIFICATION,
+    INVITATION_OPT_IN,
+    WELCOME_SCREEN,
+    GOOGLE_SETTINGS_CONTEXTUAL_CARD,
+    CHROMEBOOK_SETTINGS_PAGE,
+    WIFI_SYNC_IN_TIDEPOOL_NOTIFICATION;
+
+    static {
+        ctdj.l = arr_ctdj;
+        ibsn.a(arr_ctdj);
+    }
+}
+

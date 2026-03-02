@@ -1,0 +1,29 @@
+public final class gmsr implements gnba {
+    @Override  // gnba
+    public final gnbs a(gmni gmni0) {
+        ProtoLiteBuilder hftp0 = ((ProtoLiteMessage)gnic.a).v_newBuilder();
+        if(!hftp0.b_message.isImmutable()) {
+            hftp0.ensureMutable();
+        }
+        ((gnic)hftp0.b_message).b = "type.googleapis.com/google.crypto.tink.AesGcmSivKey";
+        ProtoLiteBuilder hftp1 = ((ProtoLiteMessage)gngp.a).v_newBuilder();
+        int v = ((gmpv)gmni0).a;
+        if(!hftp1.b_message.isImmutable()) {
+            hftp1.ensureMutable();
+        }
+        ((gngp)hftp1.b_message).b = v;
+        ByteString hfsf0 = ((gngp)hftp1.N_build()).getDefaultInstanceForType();
+        if(!hftp0.b_message.isImmutable()) {
+            hftp0.ensureMutable();
+        }
+        ((gnic)hftp0.b_message).c = hfsf0;
+        gnim gnim0 = gmsv.b(((gmpv)gmni0).b);
+        if(!hftp0.b_message.isImmutable()) {
+            hftp0.ensureMutable();
+        }
+        gnic gnic0 = (gnic)hftp0.b_message;
+        gnic0.d = gnim0.a();
+        return gnbo.b(((gnic)hftp0.N_build()));
+    }
+}
+

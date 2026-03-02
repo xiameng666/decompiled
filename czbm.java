@@ -1,0 +1,36 @@
+import com.google.android.gms.nearby.connection.ConnectionOptions;
+import com.google.android.gms.nearby.internal.connection.SendConnectionRequestParams;
+
+public final class czbm implements azys {
+    public final czdu a;
+    public final byte[] b;
+    public final String c;
+    public final azyf d;
+    public final ConnectionOptions e;
+
+    public czbm(czdu czdu0, byte[] arr_b, String s, azyf azyf0, ConnectionOptions connectionOptions0) {
+        this.a = czdu0;
+        this.b = arr_b;
+        this.c = s;
+        this.d = azyf0;
+        this.e = connectionOptions0;
+    }
+
+    @Override  // azys
+    public final void d(Object object0, Object object1) {
+        czbf czbf0 = (czbf)object0;
+        czds czds0 = new czds(this.a, ((evqp)object1));
+        com.google.android.gms.nearby.internal.connection.ConnectionOptions connectionOptions0 = com.google.android.gms.nearby.internal.connection.ConnectionOptions.a(this.e);
+        cyzp cyzp0 = new cyzp(this.d);
+        czbf0.f.add(cyzp0);
+        czft czft0 = (czft)czbf0.H();
+        SendConnectionRequestParams sendConnectionRequestParams0 = new SendConnectionRequestParams();
+        sendConnectionRequestParams0.a = new czbc(czds0);
+        sendConnectionRequestParams0.h = this.b;
+        sendConnectionRequestParams0.e = this.c;
+        sendConnectionRequestParams0.g = cyzp0;
+        sendConnectionRequestParams0.i = connectionOptions0;
+        czft0.n(sendConnectionRequestParams0);
+    }
+}
+

@@ -1,0 +1,4 @@
+interface mzs {
+    int a();
+}
+

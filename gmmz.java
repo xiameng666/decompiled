@@ -1,0 +1,4 @@
+interface gmmz {
+    void a();
+}
+

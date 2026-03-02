@@ -1,0 +1,4 @@
+interface aywt {
+    int a();
+}
+

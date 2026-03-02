@@ -1,0 +1,4 @@
+interface fabg {
+    void a();
+}
+

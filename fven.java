@@ -1,0 +1,353 @@
+import java.util.HashMap;
+import java.util.Map;
+
+// PARTIAL FAILURE: ENUM SUGARING
+// The enumeration is rendered as-is instead of being sugared into a Java 5 enum.
+public final class fven extends Enum {
+    public static final enum fven A;
+    public static final enum fven B;
+    public static final enum fven C;
+    public static final enum fven D;
+    public static final enum fven E;
+    public static final enum fven F;
+    public static final enum fven G;
+    public static final enum fven H;
+    public static final enum fven I;
+    public static final enum fven J;
+    public static final enum fven K;
+    public static final enum fven L;
+    public static final enum fven M;
+    public static final enum fven N;
+    public static final enum fven O;
+    public static final enum fven P;
+    public static final enum fven Q;
+    public static final enum fven R;
+    public static final enum fven S;
+    public static final enum fven T;
+    public static final enum fven U;
+    public static final enum fven V;
+    public static final enum fven W;
+    public static final enum fven X;
+    public static final enum fven Y;
+    public static final enum fven Z;
+    public static final enum fven a;
+    public static final enum fven aA;
+    public static final enum fven aB;
+    public static final enum fven aC;
+    public static final enum fven aD;
+    public static final enum fven aE;
+    public static final enum fven aF;
+    public static final enum fven aG;
+    public static final enum fven aH;
+    public static final enum fven aI;
+    public static final enum fven aJ;
+    public static final enum fven aK;
+    public static final enum fven aL;
+    public static final enum fven aM;
+    public static final enum fven aN;
+    public static final enum fven aO;
+    public static final enum fven aP;
+    public static final enum fven aQ;
+    public static final enum fven aR;
+    public static final enum fven aS;
+    public static final enum fven aT;
+    public static final enum fven aU;
+    public static final enum fven aV;
+    public static final enum fven aW;
+    public static final enum fven aX;
+    public static final enum fven aY;
+    public static final enum fven aZ;
+    public static final enum fven aa;
+    public static final enum fven ab;
+    public static final enum fven ac;
+    public static final enum fven ad;
+    public static final enum fven ae;
+    public static final enum fven af;
+    public static final enum fven ag;
+    public static final enum fven ah;
+    public static final enum fven ai;
+    public static final enum fven aj;
+    public static final enum fven ak;
+    public static final enum fven al;
+    public static final enum fven am;
+    public static final enum fven an;
+    public static final enum fven ao;
+    public static final enum fven ap;
+    public static final enum fven aq;
+    public static final enum fven ar;
+    public static final enum fven as;
+    public static final enum fven at;
+    public static final enum fven au;
+    public static final enum fven av;
+    public static final enum fven aw;
+    public static final enum fven ax;
+    public static final enum fven ay;
+    public static final enum fven az;
+    public static final enum fven b;
+    public static final enum fven bA;
+    public static final enum fven bB;
+    public static final enum fven bC;
+    public static final enum fven bD;
+    public static final enum fven bE;
+    public static final enum fven bF;
+    public static final enum fven bG;
+    public static final enum fven bH;
+    public static final enum fven bI;
+    public static final enum fven bJ;
+    public static final enum fven bK;
+    public static final enum fven bL;
+    public static final enum fven bM;
+    public static final enum fven bN;
+    public static final enum fven bO;
+    public static final enum fven bP;
+    public final fveh bQ;
+    private static final Map bR;
+    private static final fven[] bS;
+    private final fvdy bT;
+    public static final enum fven ba;
+    public static final enum fven bb;
+    public static final enum fven bc;
+    public static final enum fven bd;
+    public static final enum fven be;
+    public static final enum fven bf;
+    public static final enum fven bg;
+    public static final enum fven bh;
+    public static final enum fven bi;
+    public static final enum fven bj;
+    public static final enum fven bk;
+    public static final enum fven bl;
+    public static final enum fven bm;
+    public static final enum fven bn;
+    public static final enum fven bo;
+    public static final enum fven bp;
+    public static final enum fven bq;
+    public static final enum fven br;
+    public static final enum fven bs;
+    public static final enum fven bt;
+    public static final enum fven bu;
+    public static final enum fven bv;
+    public static final enum fven bw;
+    public static final enum fven bx;
+    public static final enum fven by;
+    public static final enum fven bz;
+    public static final enum fven c;
+    public static final enum fven d;
+    public static final enum fven e;
+    public static final enum fven f;
+    public static final enum fven g;
+    public static final enum fven h;
+    public static final enum fven i;
+    public static final enum fven j;
+    public static final enum fven k;
+    public static final enum fven l;
+    public static final enum fven m;
+    public static final enum fven n;
+    public static final enum fven o;
+    public static final enum fven p;
+    public static final enum fven q;
+    public static final enum fven r;
+    public static final enum fven s;
+    public static final enum fven t;
+    public static final enum fven u;
+    public static final enum fven v;
+    public static final enum fven w;
+    public static final enum fven x;
+    public static final enum fven y;
+    public static final enum fven z;
+
+    static {
+        fven.a = new fven("UNKNOWN", 0, fveh.C, fvdy.q);
+        fven.b = new fven("GPS_L1_CODETYPE_UNKNOWN", 1, fveh.a, fvdy.q);
+        fven.c = new fven("GPS_L1_CA", 2, fveh.a, fvdy.c);
+        fven.d = new fven("GPS_L1C_D", 3, fveh.a, fvdy.l);
+        fven.e = new fven("GPS_L1C_P", 4, fveh.a, fvdy.g);
+        fven.f = new fven("GPS_L1C_DP", 5, fveh.a, fvdy.n);
+        fven.g = new fven("GPS_L1_P_AS_OFF", 6, fveh.a, fvdy.j);
+        fven.h = new fven("GPS_L1_Z", 7, fveh.a, fvdy.m);
+        fven.i = new fven("GPS_L1_Y", 8, fveh.a, fvdy.o);
+        fven.j = new fven("GPS_L1_M", 9, fveh.a, fvdy.h);
+        fven.k = new fven("GPS_L1_CODELESS", 10, fveh.a, fvdy.i);
+        fven.l = new fven("GPS_L2_CODETYPE_UNKNOWN", 11, fveh.b, fvdy.q);
+        fven.m = new fven("GPS_L2_CA", 12, fveh.b, fvdy.c);
+        fven.n = new fven("GPS_L2_SEMICODELESS", 13, fveh.b, fvdy.d);
+        fven.o = new fven("GPS_L2_CM", 14, fveh.b, fvdy.l);
+        fven.p = new fven("GPS_L2_CL", 15, fveh.b, fvdy.g);
+        fven.q = new fven("GPS_L2_CML", 16, fveh.b, fvdy.n);
+        fven.r = new fven("GPS_L2_P_AS_OFF", 17, fveh.b, fvdy.j);
+        fven.s = new fven("GPS_L2_Z", 18, fveh.b, fvdy.m);
+        fven.t = new fven("GPS_L2_Y", 19, fveh.b, fvdy.o);
+        fven.u = new fven("GPS_L2_M", 20, fveh.b, fvdy.h);
+        fven.v = new fven("GPS_L2_CODELESS", 21, fveh.b, fvdy.i);
+        fven.w = new fven("GPS_L5_CODETYPE_UNKNOWN", 22, fveh.c, fvdy.q);
+        fven.x = new fven("GPS_L5_I", 23, fveh.c, fvdy.f);
+        fven.y = new fven("GPS_L5_Q", 24, fveh.c, fvdy.k);
+        fven.z = new fven("GPS_L5_IQ", 25, fveh.c, fvdy.n);
+        fven.A = new fven("GLO_G1_CODETYPE_UNKNOWN", 26, fveh.d, fvdy.q);
+        fven.B = new fven("GLO_G1_CA", 27, fveh.d, fvdy.c);
+        fven.C = new fven("GLO_G1_P", 28, fveh.d, fvdy.j);
+        fven.D = new fven("GLO_G1A_CODETYPE_UNKNOWN", 29, fveh.e, fvdy.q);
+        fven.E = new fven("GLO_G1A_L1OC_D", 30, fveh.e, fvdy.a);
+        fven.F = new fven("GLO_G1A_L1OC_P", 0x1F, fveh.e, fvdy.b);
+        fven.G = new fven("GLO_G1A_L1OC_DP", 0x20, fveh.e, fvdy.n);
+        fven.H = new fven("GLO_G2_CODETYPE_UNKNOWN", 33, fveh.f, fvdy.q);
+        fven.I = new fven("GLO_G2_CA", 34, fveh.f, fvdy.c);
+        fven.J = new fven("GLO_G2_P", 35, fveh.f, fvdy.j);
+        fven.K = new fven("GLO_G2A_CODETYPE_UNKNOWN", 36, fveh.g, fvdy.q);
+        fven.L = new fven("GLO_G2A_L2CSI", 37, fveh.g, fvdy.a);
+        fven.M = new fven("GLO_G2A_L2OCP", 38, fveh.g, fvdy.b);
+        fven.N = new fven("GLO_G2A_L2CSI_L2OCP", 39, fveh.g, fvdy.n);
+        fven.O = new fven("GLO_G3_CODETYPE_UNKNOWN", 40, fveh.h, fvdy.q);
+        fven.P = new fven("GLO_G3_I", 41, fveh.h, fvdy.f);
+        fven.Q = new fven("GLO_G3_Q", 42, fveh.h, fvdy.k);
+        fven.R = new fven("GLO_G3_IQ", 43, fveh.h, fvdy.n);
+        fven.S = new fven("GAL_E1_CODETYPE_UNKNOWN", 44, fveh.i, fvdy.q);
+        fven.T = new fven("GAL_E1_A", 45, fveh.i, fvdy.a);
+        fven.U = new fven("GAL_E1_B_D", 46, fveh.i, fvdy.b);
+        fven.V = new fven("GAL_E1_C_P", 0x2F, fveh.i, fvdy.c);
+        fven.W = new fven("GAL_E1_BC", 0x30, fveh.i, fvdy.n);
+        fven.X = new fven("GAL_E1_ABC", 49, fveh.i, fvdy.p);
+        fven.Y = new fven("GAL_E5A_CODETYPE_UNKNOWN", 50, fveh.j, fvdy.q);
+        fven.Z = new fven("GAL_E5A_I", 51, fveh.j, fvdy.f);
+        fven.aa = new fven("GAL_E5A_Q", 52, fveh.j, fvdy.k);
+        fven.ab = new fven("GAL_E5A_IQ", 53, fveh.j, fvdy.n);
+        fven.ac = new fven("GAL_E5B_CODETYPE_UNKNOWN", 54, fveh.k, fvdy.q);
+        fven.ad = new fven("GAL_E5B_I", 55, fveh.k, fvdy.f);
+        fven.ae = new fven("GAL_E5B_Q", 56, fveh.k, fvdy.k);
+        fven.af = new fven("GAL_E5B_IQ", 57, fveh.k, fvdy.n);
+        fven.ag = new fven("GAL_E5_ALTBOC_CODETYPE_UNKNOWN", 58, fveh.l, fvdy.q);
+        fven.ah = new fven("GAL_E5_ALTBOC_I", 59, fveh.l, fvdy.f);
+        fven.ai = new fven("GAL_E5_ALTBOC_Q", 60, fveh.l, fvdy.k);
+        fven.aj = new fven("GAL_E5_ALTBOC_IQ", 61, fveh.l, fvdy.n);
+        fven.ak = new fven("GAL_E6_CODETYPE_UNKNOWN", 62, fveh.m, fvdy.q);
+        fven.al = new fven("GAL_E6_A", 0x3F, fveh.m, fvdy.a);
+        fven.am = new fven("GAL_E6_B_D", 0x40, fveh.m, fvdy.b);
+        fven.an = new fven("GAL_E6_C_P", 65, fveh.m, fvdy.c);
+        fven.ao = new fven("GAL_E6_BC", 66, fveh.m, fvdy.n);
+        fven.ap = new fven("GAL_E6_ABC", 67, fveh.m, fvdy.p);
+        fven.aq = new fven("SBAS_L1_CODETYPE_UNKNOWN", 68, fveh.n, fvdy.q);
+        fven.ar = new fven("SBAS_L1_CA", 69, fveh.n, fvdy.c);
+        fven.as = new fven("SBAS_L5_CODETYPE_UNKNOWN", 70, fveh.o, fvdy.q);
+        fven.at = new fven("SBAS_L5_I", 71, fveh.o, fvdy.f);
+        fven.au = new fven("SBAS_L5_Q", 72, fveh.o, fvdy.k);
+        fven.av = new fven("SBAS_L5_IQ", 73, fveh.o, fvdy.n);
+        fven.aw = new fven("QZS_L1_CODETYPE_UNKNOWN", 74, fveh.p, fvdy.q);
+        fven.ax = new fven("QZS_L1_CA", 75, fveh.p, fvdy.c);
+        fven.ay = new fven("QZS_L1_CB", 76, fveh.p, fvdy.e);
+        fven.az = new fven("QZS_L1C_D", 77, fveh.p, fvdy.l);
+        fven.aA = new fven("QZS_L1C_P", 78, fveh.p, fvdy.g);
+        fven.aB = new fven("QZS_L1C_DP", 0x4F, fveh.p, fvdy.n);
+        fven.aC = new fven("QZS_L1_SAIF", 80, fveh.p, fvdy.p);
+        fven.aD = new fven("QZS_L1S_B", 81, fveh.p, fvdy.b);
+        fven.aE = new fven("QZS_L2_CODETYPE_UNKNOWN", 82, fveh.q, fvdy.q);
+        fven.aF = new fven("QZS_L2_CM", 83, fveh.q, fvdy.l);
+        fven.aG = new fven("QZS_L2_CL", 84, fveh.q, fvdy.g);
+        fven.aH = new fven("QZS_L2_CML", 85, fveh.q, fvdy.n);
+        fven.aI = new fven("QZS_L5_CODETYPE_UNKNOWN", 86, fveh.r, fvdy.q);
+        fven.aJ = new fven("QZS_L5_I", 87, fveh.r, fvdy.f);
+        fven.aK = new fven("QZS_L5_Q", 88, fveh.r, fvdy.k);
+        fven.aL = new fven("QZS_L5_IQ", 89, fveh.r, fvdy.n);
+        fven.aM = new fven("QZS_L5S_I", 90, fveh.r, fvdy.d);
+        fven.aN = new fven("QZS_L5S_Q", 91, fveh.r, fvdy.j);
+        fven.aO = new fven("QZS_L5S_IQ", 92, fveh.r, fvdy.p);
+        fven.aP = new fven("QZS_L6_CODETYPE_UNKNOWN", 93, fveh.s, fvdy.q);
+        fven.aQ = new fven("QZS_L6_D", 94, fveh.s, fvdy.l);
+        fven.aR = new fven("QZS_L6_P", 0x5F, fveh.s, fvdy.g);
+        fven.aS = new fven("QZS_L6_DP", 0x60, fveh.s, fvdy.n);
+        fven.aT = new fven("QZS_L6_E", 97, fveh.s, fvdy.e);
+        fven.aU = new fven("QZS_L6_DE", 98, fveh.s, fvdy.p);
+        fven.aV = new fven("BDS_B1_CODETYPE_UNKNOWN", 99, fveh.t, fvdy.q);
+        fven.aW = new fven("BDS_B1_I", 100, fveh.t, fvdy.f);
+        fven.aX = new fven("BDS_B1_Q", 101, fveh.t, fvdy.k);
+        fven.aY = new fven("BDS_B1_IQ", 102, fveh.t, fvdy.n);
+        fven.aZ = new fven("BDS_B1C_CODETYPE_UNKNOWN", 103, fveh.u, fvdy.q);
+        fven.ba = new fven("BDS_B1C_D", 104, fveh.u, fvdy.d);
+        fven.bb = new fven("BDS_B1C_P", 105, fveh.u, fvdy.j);
+        fven.bc = new fven("BDS_B1C_DP", 106, fveh.u, fvdy.n);
+        fven.bd = new fven("BDS_B1A_D", 107, fveh.u, fvdy.l);
+        fven.be = new fven("BDS_B1A_P", 108, fveh.u, fvdy.g);
+        fven.bf = new fven("BDS_B1A_DP", 109, fveh.u, fvdy.p);
+        fven.bg = new fven("BDS_B2A_CODETYPE_UNKNOWN", 110, fveh.v, fvdy.q);
+        fven.bh = new fven("BDS_B2A_D", 0x6F, fveh.v, fvdy.d);
+        fven.bi = new fven("BDS_B2A_P", 0x70, fveh.v, fvdy.j);
+        fven.bj = new fven("BDS_B2A_DP", 0x71, fveh.v, fvdy.n);
+        fven.bk = new fven("BDS_B2_CODETYPE_UNKNOWN", 0x72, fveh.w, fvdy.q);
+        fven.bl = new fven("BDS_B2_I", 0x73, fveh.w, fvdy.f);
+        fven.bm = new fven("BDS_B2_Q", 0x74, fveh.w, fvdy.k);
+        fven.bn = new fven("BDS_B2_IQ", 0x75, fveh.w, fvdy.n);
+        fven.bo = new fven("BDS_B2B_D", 0x76, fveh.w, fvdy.d);
+        fven.bp = new fven("BDS_B2B_P", 0x77, fveh.w, fvdy.j);
+        fven.bq = new fven("BDS_B2B_DP", 120, fveh.w, fvdy.p);
+        fven.br = new fven("BDS_B2AB_CODETYPE_UNKNOWN", 0x79, fveh.x, fvdy.q);
+        fven.bs = new fven("BDS_B2AB_D", 0x7A, fveh.x, fvdy.d);
+        fven.bt = new fven("BDS_B2AB_P", 0x7B, fveh.x, fvdy.j);
+        fven.bu = new fven("BDS_B2AB_DP", 0x7C, fveh.x, fvdy.n);
+        fven.bv = new fven("BDS_B3_CODETYPE_UNKNOWN", 0x7D, fveh.y, fvdy.q);
+        fven.bw = new fven("BDS_B3_I", 0x7E, fveh.y, fvdy.f);
+        fven.bx = new fven("BDS_B3_Q", 0x7F, fveh.y, fvdy.k);
+        fven.by = new fven("BDS_B3_IQ", 0x80, fveh.y, fvdy.n);
+        fven.bz = new fven("BDS_B3A_D", 0x81, fveh.y, fvdy.d);
+        fven.bA = new fven("BDS_B3A_P", 130, fveh.y, fvdy.j);
+        fven.bB = new fven("BDS_B3A_DP", 0x83, fveh.y, fvdy.p);
+        fven.bC = new fven("IRN_L1_CODETYPE_UNKNOWN", 0x84, fveh.z, fvdy.q);
+        fven.bD = new fven("IRN_L1_D", 0x85, fveh.z, fvdy.d);
+        fven.bE = new fven("IRN_L1_P", 0x86, fveh.z, fvdy.j);
+        fven.bF = new fven("IRN_L1_DP", 0x87, fveh.z, fvdy.n);
+        fven.bG = new fven("IRN_L5_CODETYPE_UNKNOWN", 0x88, fveh.A, fvdy.q);
+        fven.bH = new fven("IRN_L5_A", 0x89, fveh.A, fvdy.a);
+        fven.bI = new fven("IRN_L5_B", 0x8A, fveh.A, fvdy.b);
+        fven.bJ = new fven("IRN_L5_C", 0x8B, fveh.A, fvdy.c);
+        fven.bK = new fven("IRN_L5_BC", 140, fveh.A, fvdy.n);
+        fven.bL = new fven("IRN_S_CODETYPE_UNKNOWN", 0x8D, fveh.B, fvdy.q);
+        fven.bM = new fven("IRN_S_A", 0x8E, fveh.B, fvdy.a);
+        fven.bN = new fven("IRN_S_B", 0x8F, fveh.B, fvdy.b);
+        fven.bO = new fven("IRN_S_C", 0x90, fveh.B, fvdy.c);
+        fven.bP = new fven("IRN_S_BC", 0x91, fveh.B, fvdy.n);
+        fven.bS = fven.c();
+        fven.bR = new HashMap();
+        fven[] arr_fven = fven.values();
+        for(int v = 0; v < arr_fven.length; ++v) {
+            fven fven0 = arr_fven[v];
+            fveh fveh0 = fven0.bQ;
+            Map map0 = fven.bR;
+            if(!map0.containsKey(fveh0)) {
+                map0.put(fveh0, new HashMap());
+            }
+            ((Map)map0.get(fveh0)).put(fven0.bT, fven0);
+        }
+    }
+
+    private fven(String s, int v, fveh fveh0, fvdy fvdy0) {
+        super(s, v);
+        this.bQ = fveh0;
+        this.bT = fvdy0;
+    }
+
+    public static fven a(int v, double f, fvdy fvdy0) {
+        fveh fveh0 = fveh.a(v, f);
+        if(fveh0 != fveh.C) {
+            Map map0 = fven.bR;
+            if(map0.get(fveh0) != null) {
+                if(((Map)map0.get(fveh0)).get(fvdy0) == null) {
+                    fvdy0 = fvdy.a(v, f);
+                }
+                gftb.check(((Map)map0.get(fveh0)));
+                gftb.check(((fven)((Map)map0.get(fveh0)).get(fvdy0)));
+                return (fven)((Map)map0.get(fveh0)).get(fvdy0);
+            }
+        }
+        return fven.a;
+    }
+
+    public static boolean b(double f, double f1) {
+        return f1 >= 0xC0C3880000000000L + ((long)f) && f1 <= ((long)f) + 0x40C3880000000000L;
+    }
+
+    private static fven[] c() {
+        return new fven[]{fven.a, fven.b, fven.c, fven.d, fven.e, fven.f, fven.g, fven.h, fven.i, fven.j, fven.k, fven.l, fven.m, fven.n, fven.o, fven.p, fven.q, fven.r, fven.s, fven.t, fven.u, fven.v, fven.w, fven.x, fven.y, fven.z, fven.A, fven.B, fven.C, fven.D, fven.E, fven.F, fven.G, fven.H, fven.I, fven.J, fven.K, fven.L, fven.M, fven.N, fven.O, fven.P, fven.Q, fven.R, fven.S, fven.T, fven.U, fven.V, fven.W, fven.X, fven.Y, fven.Z, fven.aa, fven.ab, fven.ac, fven.ad, fven.ae, fven.af, fven.ag, fven.ah, fven.ai, fven.aj, fven.ak, fven.al, fven.am, fven.an, fven.ao, fven.ap, fven.aq, fven.ar, fven.as, fven.at, fven.au, fven.av, fven.aw, fven.ax, fven.ay, fven.az, fven.aA, fven.aB, fven.aC, fven.aD, fven.aE, fven.aF, fven.aG, fven.aH, fven.aI, fven.aJ, fven.aK, fven.aL, fven.aM, fven.aN, fven.aO, fven.aP, fven.aQ, fven.aR, fven.aS, fven.aT, fven.aU, fven.aV, fven.aW, fven.aX, fven.aY, fven.aZ, fven.ba, fven.bb, fven.bc, fven.bd, fven.be, fven.bf, fven.bg, fven.bh, fven.bi, fven.bj, fven.bk, fven.bl, fven.bm, fven.bn, fven.bo, fven.bp, fven.bq, fven.br, fven.bs, fven.bt, fven.bu, fven.bv, fven.bw, fven.bx, fven.by, fven.bz, fven.bA, fven.bB, fven.bC, fven.bD, fven.bE, fven.bF, fven.bG, fven.bH, fven.bI, fven.bJ, fven.bK, fven.bL, fven.bM, fven.bN, fven.bO, fven.bP};
+    }
+
+    public static fven[] values() {
+        return (fven[])fven.bS.clone();
+    }
+}
+

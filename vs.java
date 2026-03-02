@@ -1,0 +1,4 @@
+interface vs {
+    vr a();
+}
+

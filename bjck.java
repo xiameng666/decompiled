@@ -1,0 +1,18 @@
+public final class bjck implements ibtw {
+    @Override  // ibtw
+    public final Object a(Object object0, Object object1) {
+        ibuq.f(((vwj)object0), "$this$createInternal");
+        ibuq.f(((vwe)object1), "event");
+        ibuq.f(((vwe)object1), "value");
+        ProtoLiteBuilder hftp0 = ((vwj)object0).a;
+        if(!hftp0.b_message.isImmutable()) {
+            hftp0.ensureMutable();
+        }
+        vvc vvc0 = (vvc)hftp0.b_message;
+        ((vwe)object1).getClass();
+        vvc0.t = (vwe)object1;
+        vvc0.b |= 0x40000;
+        return ibom.a;
+    }
+}
+

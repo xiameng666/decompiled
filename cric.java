@@ -1,0 +1,4 @@
+interface cric {
+    Object a();
+}
+

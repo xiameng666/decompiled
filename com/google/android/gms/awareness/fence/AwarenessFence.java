@@ -1,0 +1,7 @@
+package com.google.android.gms.awareness.fence;
+
+import com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable;
+
+public abstract class AwarenessFence extends AbstractSafeParcelable {
+}
+

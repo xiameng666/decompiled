@@ -1,0 +1,4 @@
+interface czaq {
+    void i();
+}
+

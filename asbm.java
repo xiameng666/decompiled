@@ -1,0 +1,60 @@
+public final class asbm extends ProtoLiteMessage implements MessageLiteOrBuilder {
+    public static final asbm a;
+    public int b;
+    public Object c;
+    private static volatile Parser d;
+
+    static {
+        asbm asbm0 = new asbm();
+        asbm.a = asbm0;
+        ProtoLiteMessage.L(asbm.class, ((ProtoLiteMessage)asbm0));
+    }
+
+    private asbm() {
+        this.b = 0;
+    }
+
+    @Override  // ProtoLiteMessage
+    public final Object jf(int v, Object object0) {
+        Parser hfvs0;
+        if(v != 0) {
+            switch(v - 1) {
+                case 0: {
+                    return (byte)1;
+                }
+                case 2: {
+                    return new hfvw(((MessageLite)asbm.a), "\u0001\u0001\u0001\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001<\u0000", new Object[]{"c", "b", asct.class});
+                }
+                case 3: {
+                    return new asbm();
+                }
+                case 4: {
+                    return new ProtoLiteBuilder(((ProtoLiteMessage)asbm.a));
+                }
+                case 5: {
+                    return asbm.a;
+                }
+                case 6: {
+                    Object object1 = asbm.d;
+                    if(object1 == null) {
+                        Class class0 = asbm.class;
+                        synchronized(class0) {
+                            hfvs0 = asbm.d;
+                            if(hfvs0 == null) {
+                                hfvs0 = new hftq(((ProtoLiteMessage)asbm.a));
+                                asbm.d = hfvs0;
+                            }
+                        }
+                        return hfvs0;
+                    }
+                    return object1;
+                }
+                default: {
+                    throw null;
+                }
+            }
+        }
+        throw null;
+    }
+}
+

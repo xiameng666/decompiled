@@ -1,0 +1,19 @@
+public final class bymi implements ibtw {
+    public final String a;
+    public final hfc b;
+    public final int c;
+
+    public bymi(String s, hfc hfc0, int v) {
+        this.a = s;
+        this.b = hfc0;
+        this.c = v;
+    }
+
+    @Override  // ibtw
+    public final Object a(Object object0, Object object1) {
+        Integer integer0 = (Integer)object1;
+        byml.i(this.a, this.b, ((goz)object0), gsc.a(this.c | 1));
+        return ibom.a;
+    }
+}
+

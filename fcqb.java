@@ -1,0 +1,14 @@
+public final class fcqb implements ibth {
+    public final gra a;
+
+    public fcqb(gra gra0) {
+        this.a = gra0;
+    }
+
+    @Override  // ibth
+    public final Object a() {
+        this.a.b(Boolean.valueOf(false));
+        return ibom.a;
+    }
+}
+

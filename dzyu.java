@@ -1,0 +1,4 @@
+interface dzyu {
+    void a();
+}
+

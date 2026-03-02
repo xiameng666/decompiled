@@ -1,0 +1,8 @@
+public enum dgbd {
+    NO_CONTACTS_CHANGED,
+    CONTACT_ADDED,
+    CONTACT_EDITED,
+    CONTACT_REMOVED;
+
+}
+

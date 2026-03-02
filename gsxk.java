@@ -1,0 +1,203 @@
+public final class gsxk implements gphn {
+    public static final gphl A;
+    public static final gphl B;
+    public static final gphl C;
+    public static final gphl D;
+    public static final gphl E;
+    public static final gphl F;
+    public static final gphl G;
+    public static final gphl H;
+    public static final gphl I;
+    public static final gphl J;
+    public static final gphl K;
+    public static final gphl L;
+    public static final gphl M;
+    public static final gphl N;
+    public static final gphl O;
+    public static final gphl P;
+    public static final gphl Q;
+    public static final gphl R;
+    public static final gphl S;
+    public static final gphl T;
+    public static final gphl U;
+    public static final gphl V;
+    public static final gphl W;
+    public static final gphl X;
+    public static final gphl Y;
+    public static final gphl Z;
+    public static final fokg a;
+    public static final gphl aa;
+    public static final gphl ab;
+    public static final gsxk ac;
+    public final ggfp ad;
+    private static final fokg ae;
+    private static final fokg af;
+    private final ggeo ag;
+    public static final gphl b;
+    public static final gphl c;
+    public static final gphl d;
+    public static final gphl e;
+    public static final gphl f;
+    public static final gphl g;
+    public static final gphl h;
+    public static final gphl i;
+    public static final gphl j;
+    public static final gphl k;
+    public static final gphl l;
+    public static final gphl m;
+    public static final gphl n;
+    public static final gphl o;
+    public static final gphl p;
+    public static final gphl q;
+    public static final gphl r;
+    public static final gphl s;
+    public static final gphl t;
+    public static final gphl u;
+    public static final gphl v;
+    public static final gphl w;
+    public static final gphl x;
+    public static final gphl y;
+    public static final gphl z;
+
+    static {
+        gsxk.a = new fokg("google.internal.people.v2.InternalPeopleService.");
+        gsxk.ae = new fokg("google.internal.people.v2.InternalPeopleService/");
+        gsxk.b = new gsvt();
+        gsxk.c = new gswe();
+        gsxk.d = new gswp();
+        gsxk.e = new gsxa();
+        gsxk.f = new gsxf();
+        gsxk.g = new gsxg();
+        gsxk.h = new gsxh();
+        gsxk.i = new gsxi();
+        gsxk.j = new gsxj();
+        gsxk.k = new gsvj();
+        gsxk.l = new gsvk();
+        gsxk.m = new gsvl();
+        gsxk.n = new gsvm();
+        gsxk.o = new gsvn();
+        gsxk.p = new gsvo();
+        gsxk.q = new gsvp();
+        gsxk.r = new gsvq();
+        gsxk.s = new gsvr();
+        gsxk.t = new gsvs();
+        gsxk.u = new gsvu();
+        gsxk.v = new gsvv();
+        gsxk.w = new gsvw();
+        gsxk.x = new gsvx();
+        gsxk.y = new gsvy();
+        gsxk.z = new gsvz();
+        gsxk.A = new gswa();
+        gsxk.B = new gswb();
+        gsxk.C = new gswc();
+        gsxk.D = new gswd();
+        gsxk.E = new gswf();
+        gsxk.F = new gswg();
+        gsxk.G = new gswh();
+        gsxk.H = new gswi();
+        gsxk.I = new gswj();
+        gsxk.J = new gswk();
+        gsxk.K = new gswl();
+        gsxk.L = new gswm();
+        gsxk.M = new gswn();
+        gsxk.N = new gswo();
+        gsxk.O = new gswq();
+        gsxk.P = new gswr();
+        gsxk.Q = new gsws();
+        gsxk.R = new gswt();
+        gsxk.S = new gswu();
+        gsxk.T = new gswv();
+        gsxk.U = new gsww();
+        gsxk.V = new gswx();
+        gsxk.W = new gswy();
+        gsxk.X = new gswz();
+        gsxk.Y = new gsxb();
+        gsxk.Z = new gsxc();
+        gsxk.aa = new gsxd();
+        gsxk.ab = new gsxe();
+        gsxk.ac = new gsxk();
+        gsxk.af = new fokg("people-pa.googleapis.com");
+    }
+
+    private gsxk() {
+        ggdy ggdy0 = new ggdy();
+        ggdy0.i("autopush-people-pa.sandbox.googleapis.com");
+        ggdy0.i("staging-people-pa.sandbox.googleapis.com");
+        ggdy0.i("people-pa.googleapis.com");
+        ggdy0.h();
+        this.ad = new ggfn().h();
+        ggfp.O(gsxk.b, gsxk.c, gsxk.d, gsxk.e, gsxk.f, gsxk.g, new gphl[]{gsxk.h, gsxk.i, gsxk.j, gsxk.k, gsxk.l, gsxk.m, gsxk.n, gsxk.o, gsxk.p, gsxk.q, gsxk.r, gsxk.s, gsxk.t, gsxk.u, gsxk.v, gsxk.w, gsxk.x, gsxk.y, gsxk.z, gsxk.A, gsxk.B, gsxk.C, gsxk.D, gsxk.E, gsxk.F, gsxk.G, gsxk.H, gsxk.I, gsxk.J, gsxk.K, gsxk.L, gsxk.M, gsxk.N, gsxk.O, gsxk.P, gsxk.Q, gsxk.R, gsxk.S, gsxk.T, gsxk.U, gsxk.V, gsxk.W, gsxk.X, gsxk.Y, gsxk.Z, gsxk.aa, gsxk.ab});
+        ggek ggek0 = new ggek();
+        ggek0.i("GetPeople", gsxk.b);
+        ggek0.i("GetPublicPeople", gsxk.c);
+        ggek0.i("ListAllPeople", gsxk.d);
+        ggek0.i("ListContactPeople", gsxk.e);
+        ggek0.i("ListTrashedContactPeople", gsxk.f);
+        ggek0.i("ListStarredPeople", gsxk.g);
+        ggek0.i("ListBlockedPeople", gsxk.h);
+        ggek0.i("ListCircledPeople", gsxk.i);
+        ggek0.i("ListDirectoryPeople", gsxk.j);
+        ggek0.i("SearchDirectoryPeople", gsxk.k);
+        ggek0.i("SyncDirectoryPeople", gsxk.l);
+        ggek0.i("ListPeopleByCircle", gsxk.m);
+        ggek0.i("ListPeopleByGroup", gsxk.n);
+        ggek0.i("ListRankedPeople", gsxk.o);
+        ggek0.i("ListRankedTargets", gsxk.p);
+        ggek0.i("GetDirectoryIndex", gsxk.q);
+        ggek0.i("ListPeopleByKnownId", gsxk.r);
+        ggek0.i("ListPublicPeopleByPhone", gsxk.s);
+        ggek0.i("InsertPerson", gsxk.t);
+        ggek0.i("DeletePeople", gsxk.u);
+        ggek0.i("UntrashContacts", gsxk.v);
+        ggek0.i("UpdatePerson", gsxk.w);
+        ggek0.i("UpdateContactPeople", gsxk.x);
+        ggek0.i("ReportPerson", gsxk.y);
+        ggek0.i("StarPerson", gsxk.z);
+        ggek0.i("SyncPeople", gsxk.A);
+        ggek0.i("AddToMyContacts", gsxk.B);
+        ggek0.i("ListContactGroups", gsxk.C);
+        ggek0.i("GetContactGroups", gsxk.D);
+        ggek0.i("CreateContactGroups", gsxk.E);
+        ggek0.i("UpdateContactGroups", gsxk.F);
+        ggek0.i("DeleteContactGroups", gsxk.G);
+        ggek0.i("MutateContactGroupMemberships", gsxk.H);
+        ggek0.i("GetMessagesProfileAccessToken", gsxk.I);
+        ggek0.i("ListCircles", gsxk.J);
+        ggek0.i("Revert", gsxk.K);
+        ggek0.i("FetchBackUpDeviceContactInfo", gsxk.L);
+        ggek0.i("RestoreDeviceContacts", gsxk.M);
+        ggek0.i("RecordPeopleInteraction", gsxk.N);
+        ggek0.i("DeletePersonPhoto", gsxk.O);
+        ggek0.i("GetPersonPhotoEncoded", gsxk.P);
+        ggek0.i("UpdatePersonPhoto", gsxk.Q);
+        ggek0.i("BulkInsertContacts", gsxk.R);
+        ggek0.i("BlockPeople", gsxk.S);
+        ggek0.i("UnblockPeople", gsxk.T);
+        ggek0.i("GetLimitedProfileChoices", gsxk.U);
+        ggek0.i("TouchPeople", gsxk.V);
+        ggek0.i("ListAnnotatedContacts", gsxk.W);
+        ggek0.i("SubscribeToChangeNotification", gsxk.X);
+        ggek0.i("SearchContactPeople", gsxk.Y);
+        ggek0.i("AddPhoneBasedProfileVisibilityAcl", gsxk.Z);
+        ggek0.i("GetPhoneAcledProfilesByPhone", gsxk.aa);
+        ggek0.i("RevokePhoneBasedProfileVisibilityAcl", gsxk.ab);
+        this.ag = ggek0.b();
+        new ggek().b();
+    }
+
+    @Override  // gphn
+    public final fokg a() {
+        return gsxk.af;
+    }
+
+    @Override  // gphn
+    public final gphl b(String s) {
+        String s1 = gsxk.ae.a;
+        if(s.startsWith(s1)) {
+            String s2 = s.substring(s1.length());
+            return this.ag.containsKey(s2) ? ((gphl)this.ag.get(s2)) : null;
+        }
+        return null;
+    }
+}
+

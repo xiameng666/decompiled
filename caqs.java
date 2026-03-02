@@ -1,0 +1,39 @@
+import android.os.Bundle;
+import com.google.android.gms.kids.auth.flow.KidsAuthDeviceSupervisionOptInChimeraActivity;
+
+public final class caqs extends ibsl implements ibtw {
+    int a;
+    final KidsAuthDeviceSupervisionOptInChimeraActivity b;
+    final Bundle c;
+
+    public caqs(KidsAuthDeviceSupervisionOptInChimeraActivity kidsAuthDeviceSupervisionOptInChimeraActivity0, Bundle bundle0, ibrl ibrl0) {
+        this.b = kidsAuthDeviceSupervisionOptInChimeraActivity0;
+        this.c = bundle0;
+        super(2, ibrl0);
+    }
+
+    @Override  // ibtw
+    public final Object a(Object object0, Object object1) {
+        return ((caqs)this.c(((icck)object0), ((ibrl)object1))).jI(ibom.a);
+    }
+
+    @Override  // ibsd
+    public final ibrl c(Object object0, ibrl ibrl0) {
+        return new caqs(this.b, this.c, ibrl0);
+    }
+
+    @Override  // ibsd
+    public final Object jI(Object object0) {
+        Object object1 = ibrx.a;
+        int v = this.a;
+        ibnx.b(object0);
+        if(v == 0) {
+            this.a = 1;
+            if(this.b.a(this.c, this) == object1) {
+                return object1;
+            }
+        }
+        return ibom.a;
+    }
+}
+

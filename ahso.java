@@ -1,0 +1,35 @@
+import android.os.Parcel;
+import com.google.android.gms.common.api.Status;
+import j..util.Objects;
+
+public final class ahso extends wby implements ahsp {
+    final evqp a;
+
+    public ahso() {
+        super("com.google.android.gms.auth.api.identity.internal.IGenerateCallerVerificationTokenCallback");
+    }
+
+    public ahso(ahwl ahwl0, evqp evqp0) {
+        this.a = evqp0;
+        Objects.requireNonNull(ahwl0);
+        super("com.google.android.gms.auth.api.identity.internal.IGenerateCallerVerificationTokenCallback");
+    }
+
+    @Override  // ahsp
+    public final void a(Status status0, String s) {
+        azzf.b(status0, s, this.a);
+    }
+
+    @Override  // wby
+    public final boolean fj_onTransact(int v, Parcel parcel0, Parcel parcel1) {
+        if(v == 1) {
+            Status status0 = (Status)wbz.a(parcel0, Status.CREATOR);
+            String s = parcel0.readString();
+            ahso.gr(parcel0);
+            this.a(status0, s);
+            return true;
+        }
+        return false;
+    }
+}
+

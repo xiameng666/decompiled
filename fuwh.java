@@ -1,0 +1,21 @@
+public enum fuwh {
+    IN_VEHICLE,
+    ON_BICYCLE,
+    ON_FOOT,
+    WALKING,
+    RUNNING,
+    STILL,
+    UNKNOWN,
+    TILTING,
+    INCONSISTENT,
+    OFF_BODY,
+    SLEEP,
+    IN_ROAD_VEHICLE,
+    IN_RAIL_VEHICLE,
+    IN_TWO_WHEELER_VEHICLE,
+    IN_FOUR_WHEELER_VEHICLE,
+    IN_CAR,
+    IN_BUS;
+
+}
+

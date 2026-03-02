@@ -1,0 +1,7 @@
+enum fejz {
+    STOP_MIGRATING,
+    STOP_MAIN,
+    REPLACE_MAIN_WITH_MIGRATING;
+
+}
+

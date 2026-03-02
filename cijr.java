@@ -1,0 +1,46 @@
+public final class cijr implements gful_cronetEngineProvider {
+    @Override  // gful_cronetEngineProvider
+    public final Object mr() {
+        ccvw ccvw0 = ccvx.c("SPOT_ONBOARDING", 0);
+        ccvw0.g(hsxo.b());
+        ccvx ccvx0 = ccvw0.a();
+        ProtoLiteBuilder hftp0 = ((ProtoLiteMessage)bbdv.a).v_newBuilder();
+        bbed bbed0 = bbed.bu;
+        if(!hftp0.b_message.isImmutable()) {
+            hftp0.ensureMutable();
+        }
+        bbdv bbdv0 = (bbdv)hftp0.b_message;
+        bbdv0.b = bbed0.a();
+        if(!hftp0.b_message.isImmutable()) {
+            hftp0.ensureMutable();
+        }
+        ProtoLiteMessage hftv0 = hftp0.b_message;
+        ((bbdv)hftv0).c = 3;
+        bbdz bbdz0 = bbdz.c;
+        if(!hftv0.isImmutable()) {
+            hftp0.ensureMutable();
+        }
+        bbdv bbdv1 = (bbdv)hftp0.b_message;
+        bbdv1.d = bbdz0.a();
+        bbdv bbdv2 = (bbdv)hftp0.N_build();
+        cika cika0 = new cika();
+        cikg cikg0 = new cikg();
+        cikh cikh0 = new cikh();
+        cdhx cdhx0 = cdhz.a(((ProtoLiteMessage)gjpw.a), cika0, ((gful_cronetEngineProvider)cikg0), cikh0);
+        cdhx0.E(-1663016106);
+        cdhx0.H(new cizk(new cijs(), hadq.a), new cijt(), new ciju());
+        cdhx0.H(new cizk(new cijv(), haea.a), new cijw(), new cijx());
+        cijy cijy0 = new cijy();
+        cikb cikb0 = new cikb();
+        cdhx0.H(cizl.f, cijy0, cikb0);
+        cdhx0.H(new cizk(new cikc(), gtas.a), new cikd(), new cike());
+        cdhx0.j(new cikf());
+        cczs cczs0 = cdmy.a(gjpw.class);
+        cczs0.a = hsxo.b();
+        cczs0.k(ccvx0);
+        cczs0.g = bbdv2;
+        cczs0.c = cdhx0.a();
+        return cczs0.p();
+    }
+}
+

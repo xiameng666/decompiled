@@ -1,0 +1,22 @@
+import com.google.android.gms.common.api.ApiMetadata;
+import com.google.android.gms.smartdevice.postsetup.HandshakeData;
+
+public final class equx implements azys {
+    public final eqvc a;
+    public final HandshakeData b;
+
+    public equx(eqvc eqvc0, HandshakeData handshakeData0) {
+        this.a = eqvc0;
+        this.b = handshakeData0;
+    }
+
+    @Override  // azys
+    public final void d(Object object0, Object object1) {
+        eqjr eqjr0 = (eqjr)object0;
+        eqvb eqvb0 = new eqvb(this.a, ((evqp)object1));
+        eqin eqin0 = (eqin)eqjr0.H();
+        ApiMetadata apiMetadata0 = cclr.a(eqjr0.r);
+        eqin0.c(eqvb0, this.b, apiMetadata0);
+    }
+}
+

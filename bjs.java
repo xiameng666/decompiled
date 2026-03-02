@@ -1,0 +1,8 @@
+public enum bjs {
+    ALWAYS_OVERRIDE,
+    HIGH_PRIORITY_REQUIRED,
+    REQUIRED,
+    OPTIONAL;
+
+}
+

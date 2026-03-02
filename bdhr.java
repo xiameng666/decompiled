@@ -1,0 +1,10 @@
+public enum bdhr {
+    CHROME_STABLE,
+    CHROME_BETA,
+    CHROME_DEV,
+    CHROME_CANARY,
+    CHROME_BUILT_LOCALLY,
+    AUTOFILL_WITH_GOOGLE;
+
+}
+

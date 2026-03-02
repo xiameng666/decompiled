@@ -1,0 +1,12 @@
+public enum czya {
+    INITIALIZED,
+    CREATING_OFFER,
+    WAITING_FOR_ANSWER,
+    RECEIVED_OFFER,
+    CREATING_ANSWER,
+    WAITING_TO_CONNECT,
+    CONNECTED,
+    ENDED;
+
+}
+

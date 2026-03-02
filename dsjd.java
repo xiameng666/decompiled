@@ -1,0 +1,4 @@
+interface dsjd {
+    int a();
+}
+

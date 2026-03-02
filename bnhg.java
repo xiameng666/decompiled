@@ -1,0 +1,9 @@
+enum bnhg {
+    NONE,
+    CONNECTING,
+    CONNECTED,
+    DISCONNECTING,
+    DISCONNECTED;
+
+}
+

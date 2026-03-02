@@ -1,0 +1,11 @@
+public final class gpef extends ibjm {
+    public gpef(iakr iakr0, iakq iakq0) {
+        super(iakr0, iakq0);
+    }
+
+    @Override  // ibjo
+    protected final ibjo d(iakr iakr0, iakq iakq0) {
+        return new gpef(iakr0, iakq0);
+    }
+}
+

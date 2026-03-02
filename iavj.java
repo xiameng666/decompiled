@@ -1,0 +1,3 @@
+interface iavj extends iavk {
+}
+

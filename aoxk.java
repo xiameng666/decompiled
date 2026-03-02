@@ -1,0 +1,30 @@
+import com.google.android.gms.autofill.fill.IFillField;
+import j..util.function.Predicate.-CC;
+import java.util.Arrays;
+import java.util.function.Predicate;
+
+public final class aoxk implements Predicate {
+    @Override
+    public final Predicate and(Predicate predicate0) {
+        return Predicate.-CC.$default$and(this, predicate0);
+    }
+
+    @Override
+    public final Predicate negate() {
+        return Predicate.-CC.$default$negate(this);
+    }
+
+    @Override
+    public final Predicate or(Predicate predicate0) {
+        return Predicate.-CC.$default$or(this, predicate0);
+    }
+
+    @Override
+    public final boolean test(Object object0) {
+        if(((IFillField)object0).q(ando.k)) {
+            return Arrays.asList(hqec.d().split("\\|")).contains(String.valueOf(((IFillField)object0).g().a())) ? true : angz.c(((IFillField)object0));
+        }
+        return false;
+    }
+}
+

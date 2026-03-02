@@ -1,0 +1,4 @@
+interface fabf {
+    Object a();
+}
+

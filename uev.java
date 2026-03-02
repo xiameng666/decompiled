@@ -1,0 +1,4 @@
+interface uev {
+    void a();
+}
+

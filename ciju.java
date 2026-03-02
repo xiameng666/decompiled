@@ -1,0 +1,12 @@
+public final class ciju implements bbmv {
+    @Override  // bbmv
+    public final void a(Object object0, Object object1) {
+        if(!((ProtoLiteBuilder)object0).b_message.isImmutable()) {
+            ((ProtoLiteBuilder)object0).ensureMutable();
+        }
+        hadp hadp0 = (hadp)((ProtoLiteBuilder)object0).b_message;
+        hadp0.c = ((hadq)object1).a();
+        hadp0.b |= 1;
+    }
+}
+

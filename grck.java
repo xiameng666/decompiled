@@ -1,0 +1,49 @@
+public enum grck implements hfub {
+    CLIENT_USE_CASE_UNSPECIFIED(0),
+    PGC_SYNCED_PASSWORDS_CHECKUP(1),
+    CREDENTIAL_MANAGER_SYNCED_PASSWORDS_CHECKUP(2),
+    CREDENTIAL_MANAGER_SYNCED_ON_DEVICE_PROACTIVE_PASSWORD_CHECKUP(3),
+    @Deprecated
+    CREDENTIAL_MANAGER_SYNCED_ON_DEVICE_PROACTIVE_PASSWORD_CHECKUP_OPTIMIZATION_ON(16),
+    @Deprecated
+    CREDENTIAL_MANAGER_SYNCED_ON_DEVICE_PROACTIVE_PASSWORD_CHECKUP_OPTIMIZATION_CONTROL(17),
+    GOOGLE_ACCOUNT_PASSWORD_RATING_CHECK(4),
+    CHROME_SIGN_IN_CHECK(5),
+    CHROME_BULK_SYNCED_PASSWORDS_CHECK(6),
+    CHROME_DESKTOP_SIGNED_IN_ON_DEVICE_PROACTIVE_PASSWORD_CHECKUP(7),
+    CHROME_IOS_SIGNED_IN_ON_DEVICE_PROACTIVE_PASSWORD_CHECKUP(18),
+    CHROME_EDIT_CHECK(15),
+    CHROME_ANDROID_SAFETY_CHECK(20),
+    AWG_SYNCED_PASSWORD_SIGN_IN_CHECK(8),
+    RECAPTCHA_ENTERPRISE_VERIFICATION(9),
+    RECAPTCHA_ENTERPRISE_VERIFICATION_V1BETA1(13),
+    @Deprecated
+    IGA_SIGN_IN_CHECK(10),
+    IGA_BULK_SYNCED_PASSWORDS_CHECK(11),
+    PASSWORDS_LEAK_CHECK_SERVICE_WARM_UP(12),
+    CLOUD_SQL_USER_LEAK_CHECK(14),
+    IOS_WEB_VIEW_SIGN_IN_CHECK(19),
+    @Deprecated
+    CLOUD_APP_CONFIG_MANAGER_AI_INSIGHTS(21),
+    UNRECOGNIZED(-1);
+
+    private final int y;
+
+    private grck(int v1) {
+        this.y = v1;
+    }
+
+    @Override  // hfub
+    public final int a() {
+        if(this != grck.w) {
+            return this.y;
+        }
+        throw new IllegalArgumentException("Can\'t get the number of an unknown enum value.");
+    }
+
+    @Override
+    public final String toString() {
+        return Integer.toString(this.y);
+    }
+}
+

@@ -1,0 +1,7 @@
+public enum fvrb {
+    USING_FULL_TIME_SPANS,
+    USING_IN_OUTDOOR_HINTS,
+    FORCED_COLLECTION_FOR_TESTING;
+
+}
+

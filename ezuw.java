@@ -1,0 +1,21 @@
+import com.google.android.gms.common.api.ApiMetadata;
+import com.google.android.gms.common.api.Status;
+import com.google.android.gms.update.InstallationOptions;
+
+public final class ezuw implements azys {
+    public final InstallationOptions a;
+
+    public ezuw(InstallationOptions installationOptions0) {
+        this.a = installationOptions0;
+    }
+
+    @Override  // azys
+    public final void d(Object object0, Object object1) {
+        fabi fabi0 = (fabi)object0;
+        ezuj ezuj0 = (ezuj)fabi0.H();
+        ApiMetadata apiMetadata0 = cclr.a(fabi0.r);
+        ezuj0.e(this.a, apiMetadata0);
+        azzf.a(Status.b, ((evqp)object1));
+    }
+}
+

@@ -1,0 +1,45 @@
+import android.app.Application;
+
+public final class eizl implements eiyw, ejbo {
+    protected final xnz a;
+    private volatile Object b;
+    private final Object c;
+    private final ejbo d;
+
+    public eizl(xnz xnz0) {
+        this.c = new Object();
+        this.a = xnz0;
+        this.d = new eizd(xnz0);
+    }
+
+    @Override  // eiyw
+    public final eixn a() {
+        return ((eizd)this.d).a();
+    }
+
+    public final ejaj b() {
+        return ((eizd)this.d).b();
+    }
+
+    @Override  // ejbo
+    public final Object h() {
+        if(this.b == null) {
+            Object object0 = this.c;
+            synchronized(object0) {
+                if(this.b == null) {
+                    xnz xnz0 = this.a;
+                    if(!(eixx.a(xnz0) instanceof ejbo)) {
+                        Class class0 = eixx.a(xnz0).getClass();
+                        throw new IllegalStateException("Chimera FragmentActivity must be attached to a ModuleApplication. " + (Application.class.equals(class0) ? "Did you forget to specify your Application\'s class name in your manifest\'s <application />\'s android:name attribute?" : "Found: " + eixx.a(xnz0).getClass()));
+                    }
+                    eixz eixz0 = (eixz)((eiyu)eixh.a(this.d, eiyu.class)).a().d();
+                    eixz0.c(xnz0);
+                    this.b = eixz0.a();
+                }
+            }
+            return this.b;
+        }
+        return this.b;
+    }
+}
+

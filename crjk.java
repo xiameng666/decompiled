@@ -1,0 +1,6 @@
+import java.util.Map;
+
+interface crjk {
+    void a(String arg1, int arg2, Throwable arg3, byte[] arg4, Map arg5);
+}
+

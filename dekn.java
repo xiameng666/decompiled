@@ -1,0 +1,53 @@
+final class dekn extends ibsl implements ibtw {
+    int a;
+    final ddag b;
+    private Object c;
+
+    public dekn(ddag ddag0, ibrl ibrl0) {
+        this.b = ddag0;
+        super(2, ibrl0);
+    }
+
+    @Override  // ibtw
+    public final Object a(Object object0, Object object1) {
+        return ((dekn)this.c(((icih)object0), ((ibrl)object1))).jI(ibom.a);
+    }
+
+    @Override  // ibsd
+    public final ibrl c(Object object0, ibrl ibrl0) {
+        ibrl ibrl1 = new dekn(this.b, ibrl0);
+        ibrl1.c = object0;
+        return ibrl1;
+    }
+
+    @Override  // ibsd
+    public final Object jI(Object object0) {
+        Object object1 = ibrx.a;
+        int v = this.a;
+        ibnx.b(object0);
+        switch(v) {
+            case 0: {
+                icih icih0 = (icih)this.c;
+                dena dena0 = new dena(true);
+                this.a = 1;
+                if(icih0.a(dena0, this) != object1) {
+                    goto label_9;
+                }
+                break;
+            }
+            case 1: {
+            label_9:
+                this.a = 2;
+                if(this.b.h(this) != object1) {
+                    return ibom.a;
+                }
+                break;
+            }
+            default: {
+                return ibom.a;
+            }
+        }
+        return object1;
+    }
+}
+

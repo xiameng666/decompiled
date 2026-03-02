@@ -1,0 +1,9 @@
+public enum akqg {
+    LOADING_SCREEN,
+    SEPARATE_APP_SCREEN,
+    BRIEFCASE_BADGE_SCREEN,
+    FINISHED_OK,
+    FINISHED_CANCELLED;
+
+}
+

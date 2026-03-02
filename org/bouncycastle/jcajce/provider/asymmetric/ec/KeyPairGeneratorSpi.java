@@ -1,0 +1,10 @@
+package org.bouncycastle.jcajce.provider.asymmetric.ec;
+
+import java.security.KeyPairGenerator;
+
+public abstract class KeyPairGeneratorSpi extends KeyPairGenerator {
+    public KeyPairGeneratorSpi(String s) {
+        super(s);
+    }
+}
+

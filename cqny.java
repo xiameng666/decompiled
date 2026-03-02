@@ -1,0 +1,10 @@
+enum cqny {
+    NO_OPERATION,
+    IN_PROGRESS,
+    SET_SUCCESS,
+    SET_FAILURE,
+    DELETE_SUCCESS,
+    DELETE_FAILURE;
+
+}
+

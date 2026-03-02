@@ -1,0 +1,9 @@
+public enum gpma {
+    PROCEED,
+    ABORT_WITH_EXCEPTION,
+    ABORT_WITH_RESPONSE,
+    CONTINUE_AFTER,
+    DELAY_START;
+
+}
+

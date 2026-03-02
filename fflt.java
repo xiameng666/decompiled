@@ -1,0 +1,4 @@
+interface fflt {
+    void a();
+}
+

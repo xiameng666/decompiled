@@ -1,0 +1,26 @@
+public enum este {
+    B1_SRV_INDEX,
+    B2_ID,
+    B4_CONTROL,
+    B6_KCV,
+    B9_PRMACQ_INDEX,
+    B10_RFU,
+    B14_LAST_UPD_ATC,
+    B16_LAST_UPD_DATE_TIME,
+    B22_SRV_ATC,
+    B24_SRV_BALANCE,
+    B30_SRV_CURRENCY,
+    B32_SRV_DATA_LEN,
+    B33_SRV_DATA,
+    CREATE_DATE,
+    SIGN_FAIL_CTR,
+    SUMMARY_FAIL_CTR,
+    BLOCKED,
+    ACTIVE,
+    SERVICE_ID,
+    PRM_ACQ,
+    BALANCE_LIMIT,
+    FULL_SERV_DATA;
+
+}
+

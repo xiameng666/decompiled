@@ -1,0 +1,14 @@
+final class bwka {
+    public int a;
+    public int b;
+    public int c;
+    public int d;
+
+    public bwka() {
+        this.a = 0;
+        this.b = 0;
+        this.c = 0;
+        this.d = 0;
+    }
+}
+

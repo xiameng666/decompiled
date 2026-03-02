@@ -1,0 +1,4 @@
+interface bdcc {
+    evql a();
+}
+

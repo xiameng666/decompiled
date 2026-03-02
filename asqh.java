@@ -1,0 +1,5 @@
+public interface asqh {
+    static {
+    }
+}
+

@@ -1,0 +1,4 @@
+interface bliq {
+    Object a();
+}
+

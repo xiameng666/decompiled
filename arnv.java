@@ -1,0 +1,4 @@
+interface arnv {
+    void e();
+}
+

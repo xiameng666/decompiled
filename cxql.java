@@ -1,0 +1,4 @@
+interface cxql {
+    Object a();
+}
+

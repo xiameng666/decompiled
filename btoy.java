@@ -1,0 +1,4 @@
+interface btoy {
+    void a();
+}
+
